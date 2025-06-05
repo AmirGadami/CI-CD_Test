@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
+      packages: write  # Needed for Docker push
 
     steps:
     - uses: actions/checkout@v4
